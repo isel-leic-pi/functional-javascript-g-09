@@ -2,5 +2,5 @@
 
 # Alunos:
 ## Diogo Chirôndio nrº 45376
-## António Pereira  nrº XXXXX
+## António Pereira  nrº 28093
 ## XXXXX XXXXX nrº XXXXX
