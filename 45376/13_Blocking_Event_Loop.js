@@ -5,8 +5,8 @@ module.exports = function repeat(operation, num) {
 	operation()
 	setImmediate(function () {                      // evento vai ser colocado na lista
 		repeat(operation, num - 1)                  // para ser executado imediatamente 
-	})                                              // após os existentes na mesma
-} 
+	})                                              // após    serem    terminados   os 
+}                                                   // existentes        na       mesma
 
 
 

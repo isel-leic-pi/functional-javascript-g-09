@@ -6,7 +6,7 @@ function repeat(operation, num) {                      //
     return function () {                               //     as  restantes   operações,  
 		return repeat(operation, --num)                //     este   vai   retornar  uma
 	}                                                  //     função que ao ser invocada
-}                                                     //     vai realizar  os seguintes 
+}                                                      //     vai realizar  os seguintes 
                                                        //     passos,  mantendo  o stack
 function trampoline(fn) {                              //     sempre  ao   mesmo  nível.
 	while(fn) {                                        //     Deste modo, a função passa
